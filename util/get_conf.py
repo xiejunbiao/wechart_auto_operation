@@ -13,12 +13,10 @@ def get_config():
     conf_ = {}
     for sec in section:
         conf_[sec] = {}
-        for key, values in  config.items(sec):
+        for key, values in config.items(sec):
             conf_[sec][key] = values
 
     return conf_
 
 
 conf = get_config()
-
-# print(conf['toutiao'].keys())

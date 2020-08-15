@@ -2,7 +2,7 @@
 """
 Created on Wed Apr 15 18:16:38 2020
 
-@author: lijiangman
+@author: xiejunbiao
 """
 
 from server.wechat_get_token_web_server import start
